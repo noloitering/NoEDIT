@@ -14,3 +14,6 @@
 	path = NoMEM
 	url = https://github.com/noloitering/NoMEM.git
 	branch = production
+[submodule "include/raylib"]
+	path = include/raylib
+	url = https://github.com/raysan5/raylib.git
