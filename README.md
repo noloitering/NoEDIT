@@ -49,7 +49,7 @@
                     "Position": [235, 385],
                     "Size": [235, 335],
                     "Colour": [100, 100, 100, 255],
-                    "Outline": [100, 100, 100, 255, 0],
+                    "Outline": [0, 0, 0, 255, 0],
                     "Hover Colour": [100, 100, 100, 255],
                     "Inner": "",
                     "Components": {
@@ -73,7 +73,7 @@
                     "Position": [235, 585],
                     "Size": [115, 50],
                     "Colour": [130, 130, 130, 255],
-                    "Outline": [130, 130, 130, 255, 1],
+                    "Outline": [0, 0, 0, 255, 1],
                     "Hover Colour": [120, 120, 120, 255],
                     "Inner": "Connect",
                     "Components": {
@@ -98,7 +98,7 @@
                     "Position": [98, 440],
                     "Size": [25, 25],
                     "Colour": [0, 228, 48, 255],
-                    "Outline": [0, 228, 48, 255, 1],
+                    "Outline": [0, 0, 0, 255, 1],
                     "Hover Colour": [246, 218, 38, 255],
                     "Inner": "SEND",
                     "Components": {
@@ -125,7 +125,7 @@
                     "Position": [235, 140],
                     "Size": [112, 25],
                     "Colour": [200, 200, 200, 255],
-                    "Outline": [200, 200, 200, 255, 2],
+                    "Outline": [0, 0, 0, 255, 2],
                     "Hover Colour": [200, 200, 200, 255],
                     "Inner": "",
                     "Components": {
@@ -154,7 +154,7 @@
                     "Position": [235, 240],
                     "Size": [112, 25],
                     "Colour": [200, 200, 200, 255],
-                    "Outline": [200, 200, 200, 255, 2],
+                    "Outline": [0, 0, 0, 255, 2],
                     "Hover Colour": [200, 200, 200, 255],
                     "Inner": "",
                     "Components": {
@@ -165,7 +165,7 @@
                         "Text": {
                             "Font": "jupiter_crash",
                             "Size": 25.0,
-                            "Colour": [190, 33, 55, 255],
+                            "Colour": [0, 0, 0, 255],
                             "Margin": [0.0, 0.0],
                             "Whitespace": [2.0, 0.0],
                             "Angle": 0.0,
@@ -183,7 +183,7 @@
                     "Position": [235, 340],
                     "Size": [112, 25],
                     "Colour": [200, 200, 200, 255],
-                    "Outline": [200, 200, 200, 255, 2],
+                    "Outline": [0, 0, 0, 255, 2],
                     "Hover Colour": [200, 200, 200, 255],
                     "Inner": "",
                     "Components": {
@@ -212,7 +212,7 @@
                     "Position": [235, 440],
                     "Size": [112, 25],
                     "Colour": [200, 200, 200, 255],
-                    "Outline": [200, 200, 200, 255, 2],
+                    "Outline": [0, 0, 0, 255, 2],
                     "Hover Colour": [200, 200, 200, 255],
                     "Inner": "",
                     "Components": {
@@ -243,7 +243,7 @@
                     "Position": [235, 110],
                     "Size": [112, 25],
                     "Colour": [0, 0, 0, 1],
-                    "Outline": [0, 0, 0, 1, 0],
+                    "Outline": [0, 0, 0, 255, 0],
                     "Hover Colour": [0, 0, 0, 1],
                     "Inner": "IP Address:",
                     "Components": {}
@@ -256,7 +256,7 @@
                     "Position": [235, 210],
                     "Size": [112, 25],
                     "Colour": [0, 0, 0, 1],
-                    "Outline": [0, 0, 0, 1, 0],
+                    "Outline": [0, 0, 0, 255, 0],
                     "Hover Colour": [0, 0, 0, 1],
                     "Inner": "Port:",
                     "Components": {}
@@ -269,7 +269,7 @@
                     "Position": [235, 310],
                     "Size": [112, 25],
                     "Colour": [0, 0, 0, 1],
-                    "Outline": [0, 0, 0, 1, 0],
+                    "Outline": [0, 0, 0, 255, 0],
                     "Hover Colour": [0, 0, 0, 1],
                     "Inner": "Username:",
                     "Components": {}
@@ -282,7 +282,7 @@
                     "Position": [235, 410],
                     "Size": [112, 25],
                     "Colour": [0, 0, 0, 1],
-                    "Outline": [0, 0, 0, 1, 0],
+                    "Outline": [0, 0, 0, 255, 0],
                     "Hover Colour": [0, 0, 0, 1],
                     "Inner": "Message:",
                     "Components": {}
