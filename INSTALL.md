@@ -1,5 +1,5 @@
 # Install
-NoEDIT is a command line tool that converts properly formatted JSON files into an actual functioning window. This guide will explain how to install, compile, and run NoEDIT on your computer. It assumes that the reader has 0 prior software development experience. If the prerequesites listed below are already installed on the system you can go ahead and skip to step number 8.<br/>
+NoEDIT is a command line tool that converts properly formatted JSON files into an actual functioning window. This guide will explain how to install, compile, and run NoEDIT on your computer. It assumes that the reader has 0 prior software development experience. If the prerequisites listed below are already installed on the system you can go ahead and skip to step number 8.<br/>
 NoEDIT comes with 2 dependencies bundled within: [raylib](https://github.com/raysan5/raylib), and [rapidjson](https://github.com/Tencent/rapidjson). They are included in `NoEDIT/include` and `NoPARSE/include`. Raylib must be compiled in order for NoEDIT to work. If you already have raylib compiled on your system you can change the path on [line 40 of the makefile](https://github.com/noloitering/NoEDIT/blob/main/build/makefile#L40) and skip steps 9-10 (you will probably want to skip the recursive flag to the clone command in step 8 as well).
 ## Prerequisites
 1. [Git](https://git-scm.com/)
