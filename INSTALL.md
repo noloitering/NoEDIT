@@ -31,7 +31,7 @@ if your Command Prompt looks like the above screenshot then continue
 1. Copy the text in [README](https://github.com/noloitering/NoEDIT/blob/main/README.md#file-format) under the 'File Format' section and paste it into a text editor of your choice. Save this file in the same folder that NoEDIT.exe is in. You can name the file whatever you wish, but make sure that the file is saved with the ".json" extension.
 2. Launch Command Prompt
 3. Type `cd` and then the path you saved the file in step 1
-4. Type `NoPARSE.exe ` and then the full name (including extension) of the file in step 1
+4. Type `NoEDIT.exe ` and then the full name (including extension) of the file in step 1
 5. a 1280x1080p window should open with the following contents: <br/>
 ![pageshot](https://user-images.githubusercontent.com/93274535/144881091-68e69623-fe46-4c75-a9d1-03b0c9b81036.JPG)
 Try typing into the boxes and hovering the buttons
