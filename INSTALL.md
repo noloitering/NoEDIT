@@ -34,4 +34,4 @@ if your Command Prompt looks like the above screenshot then continue
 4. Type `NoEDIT.exe ` and then the full name (including extension) of the file in step 1
 5. a 1280x1080p window should open with the following contents: <br/>
 ![pageshot](https://user-images.githubusercontent.com/93274535/144881091-68e69623-fe46-4c75-a9d1-03b0c9b81036.JPG)
-Try typing into the boxes and hovering the buttons
+Now try typing into the boxes and hovering the buttons
