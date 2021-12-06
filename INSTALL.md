@@ -1,10 +1,10 @@
-#Install
-NoEDIT is a command line tool that converts properly formatted JSON files into an actual functioning window. This guide will explain how to install, compile, and run NoEDIT on your computer. It assumes that the reader has 0 prior software development experience. If the prerequesites listed below are already installed on the system you can go ahead and skip to step number 8.
+# Install
+NoEDIT is a command line tool that converts properly formatted JSON files into an actual functioning window. This guide will explain how to install, compile, and run NoEDIT on your computer. It assumes that the reader has 0 prior software development experience. If the prerequesites listed below are already installed on the system you can go ahead and skip to step number 8. <br/>
 NoEDIT comes with 2 dependencies bundled within: [raylib](https://github.com/raysan5/raylib), and [rapidjson](https://github.com/Tencent/rapidjson). They are included in `NoEDIT/include` and `NoPARSE/include`. Raylib must be compiled in order for NoEDIT to work. If you already have raylib compiled on your system you can change the path on [line 40 of the makefile](https://github.com/noloitering/NoEDIT/blob/main/build/makefile#L40) and skip steps 9-10 (you will probably want to skip the recursive flag to the clone command in step 8 as well).
-##Prerequisites
+## Prerequisites
 1. [Git](https://git-scm.com/)
 2. [GCC](https://www.mingw-w64.org/)
-##Windows
+## Windows
 1. [Download Git](https://git-scm.com/downloads) and run the installer. It is recommended to use the default settings
 2. [Download MinGW](https://www.mingw-w64.org/downloads/#mingw-builds). It is reccomended to use the SourceForge link provided by MinGW-builds. **It is very important to remember where you install minGW** when you run the installer (it is recommended to use **default settings otherwise**)
 3. Add MinGW to your PATH. Start by typing 'Edit the system environment variables' in Cortana/Search. Launch it and click the 'Edit Environment Variables' button near the bottom of the window. 2 tables should appear: one for User variables, and another for System variables. Find any Variable named "Path" in either table and Edit it. Click the 'New' button and enter the install path for MinGW with "\bin" appended to the end of it. Once you have that completed click "Ok" to save your changes
@@ -18,7 +18,7 @@ NoEDIT comes with 2 dependencies bundled within: [raylib](https://github.com/ray
 11. Type `cd ../../../build`
 12. Type `mingw32-make` and wait as NoEDIT is being compiled
 13. Congratulations you have installed NoEDIT!
-#Test
+# Test
 1. Copy the text in [README](https://github.com/noloitering/NoEDIT/blob/main/README.md#file-format) under the 'File Format' section and paste it into a text editor of your choice. Save this file in the same folder that NoEDIT.exe is in. You can name the file whatever you wish, but make sure that the file is saved with the ".json" extension.
 2. Launch Command Prompt
 3. Type `cd` and then the path you saved the file in step 1
