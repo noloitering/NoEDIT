@@ -7,12 +7,14 @@ int main(int argc, char ** argv)
 {
 	if (argc > 1)
 	{
+		// Init Window
 		NoMVC::WindowConfig window = {1280, 1080, 60, 1/60, false, GRAY};
 		// Init Controller
 		std::shared_ptr< NoMVC::Controller > game = std::make_shared< NoMVC::Controller >();
 		game->changeWindow(window);
-		// Load Assets
+		// Init Assets
 		std::shared_ptr< NoMEM::MEMManager > assets = std::make_shared< NoMEM::MEMManager >();
+		// Load Assets
 		std::shared_ptr< NoGUI::Page > pg = NoGUI::loadPage(std::string(argv[1]), assets);
 		game->assets = *(assets.get());
 		// Init Models
