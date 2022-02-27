@@ -17,3 +17,7 @@
 [submodule "include/raylib"]
 	path = include/raylib
 	url = https://github.com/raysan5/raylib.git
+[submodule "NoECS"]
+	path = NoECS
+	url = https://github.com/noloitering/NoECS.git
+	branch = production

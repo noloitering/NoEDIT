@@ -25,7 +25,7 @@
 # paths
 EXE_NAME ?= NoEDIT
 DESTDIR ?= ./
-SRC ?= ../src/main.cpp ../NoPARSE/src/Parse.cpp ../NoGUI/src/GUI.cpp ../NoMVC/src/Controller.cpp ../NoMVC/src/View.cpp
+SRC ?= ../src/main.cpp ../NoPARSE/src/Parse.cpp ../NoGUI/src/GUI.cpp ../NoECS/src/Entity.cpp ../NoMVC/src/Controller.cpp ../NoMVC/src/View.cpp
 OBJS = $(patsubst %.c, %.o, $(SRC))
 
 # compiler
